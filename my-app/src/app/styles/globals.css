@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap");
+
+* {
+    font-family: "Quicksand", sans-serif;
+    font-size: 18px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Works for Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Works for Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+body {
+    background-color: #92aba0;
+}

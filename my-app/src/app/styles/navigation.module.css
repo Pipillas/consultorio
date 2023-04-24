@@ -1,0 +1,39 @@
+.header{
+    padding-bottom: 10px;;
+    border-bottom:3px solid #395046;
+    margin:5px;
+}
+
+.nav{
+    display:flex;
+}
+
+.section-nav-buttons{
+    display:flex;
+    align-items: center;
+}
+
+.nav-buttons{
+    display:flex;
+    list-style: none;
+}
+
+.nav-buttons li{
+    background-color: #395046;
+    margin:10px;
+    margin-left:30px;
+    border-radius: 3px;
+}
+
+.a{
+    display:flex;
+    color:#c0d6cd;
+    text-decoration: none;
+    padding:10px;
+    padding-top:10px;
+}
+
+.nav-buttons li:hover{
+    cursor:pointer;
+    background-color: #4f675d;
+}

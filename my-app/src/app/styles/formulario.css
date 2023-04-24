@@ -1,0 +1,78 @@
+.form {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    min-width: 325px;
+    width: 325px;
+    align-items: center;
+}
+
+.form-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    width: 100%;
+    background-color: #395046;
+    color: #c0d6cd;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.form-section input,
+.form-section select {
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    background-color: #c0d6cd;
+    color: black;
+}
+
+.form-section input:focus,
+.form-section select:focus {
+    outline: 2px solid black;
+}
+
+.guardar-button {
+    margin-top: 20px;
+    border: 0;
+    background-color: #395046;
+    color: #c0d6cd;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.guardar-button:hover {
+    cursor: pointer;
+    background-color: #4f675d;
+}
+
+.tarjeta-formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.tarjeta-formulario span {
+    background-color: #395046;
+    text-align: center;
+    width: 300px;
+    color: white;
+}
+
+.tarjeta-formulario input {
+    width: 300px;
+    text-align: center;
+    outline: 0;
+    border: 0;
+    border-radius: 3px;
+    background-color: #c0d6cd;
+    color: black;
+}
+
+.tarjeta-formulario input:focus {
+    outline: 2px solid black;
+}
